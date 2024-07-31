@@ -24,7 +24,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 	    @BeforeClass
 	    public void setUp() {
 	        // Set up the Firefox driver
-	        WebDriverManager.firefox().setup();
+	        WebDriverManager.firefoxdriver().setup();
 	        //Create a new instance of the Firefox driver
 	        driver = new FirefoxDriver();
 
